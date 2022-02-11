@@ -17,7 +17,7 @@ function App() {
       return friendID.id !== id
     })
     setFriend(newFriends)
-    if (friend.length == 1) {
+    if (friend.length === 1) {
       setValue("0 birthdays today")  
     }
   }
